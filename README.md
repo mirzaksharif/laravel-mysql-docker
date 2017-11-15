@@ -1,5 +1,6 @@
 ## Laravel + MySQL + Docker Container
-* Author/Developer: **Khurram Sharif** *
+* Author/Developer: **Khurram Sharif**
+* Created Date: **15th November, 2017**
 
 ------------
 This repo contains dockerized implementation of Laravel, PHP, MySQL and NginX.
@@ -22,10 +23,10 @@ Pass: laravel
 Database: laravel
 ```
 * If you don't have any MySQL client installed, then you can get one here for free: 
-https://dev.mysql.com/downloads/workbench/ *
+https://dev.mysql.com/downloads/workbench/ 
 
 Download SQL file from below and import in into "Laravel" database.
-* SQL file: https://s3.eu-west-2.amazonaws.com/echomany-test-task/codes.sql *
+* SQL file: https://s3.eu-west-2.amazonaws.com/echomany-test-task/codes.sql 
 
 ### You are done! 
 Just open your browser and load:

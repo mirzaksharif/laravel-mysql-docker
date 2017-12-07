@@ -1,6 +1,7 @@
 ## Laravel + MySQL + Docker Container
 * Author/Developer: **Khurram Sharif**
 * Created Date: **15th November, 2017**
+* Updated Date: **7th December, 2017**
 
 ------------
 This repo contains dockerized implementation of Laravel, PHP, MySQL and NginX.
@@ -9,7 +10,7 @@ Please follow below description to run this docker:-
 
 1. First you should have **Docker** & **Docker-Compose** installed on your system. I recommend Ubuntu because Docker is native for Linux, however, you are free to use Docker for Windows or MacOS.
 2. Clone or download this repo.
-3. In **Terminal** run commad ***(sudo) docker-compose build***
+3. In **Terminal** run command ***(sudo) docker-compose build***
 *This will fetch required images and build according to required modules. In this case we have to enable PHP PDO MySQL for database queries.*
 4. Once build is successful, run this command: ***(sudo) docker-compose up***
 
@@ -33,6 +34,9 @@ Just open your browser and load:
 ```javascript
 http://localhost/v1/codes?type=pizza
 ```
-
-
+To check health endpoint:
+```javascript
+http://localhost/v1/health
+```
+This will show status if your API services, database engine/connection and number of records are running fine or not.
 

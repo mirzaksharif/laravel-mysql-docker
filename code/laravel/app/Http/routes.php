@@ -12,3 +12,4 @@
 */
 
 Route::get('v1/codes', 'APICall@load');
+Route::get('v1/health', 'APICall@healthCheck');
